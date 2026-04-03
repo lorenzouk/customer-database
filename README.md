@@ -1,11 +1,11 @@
-# Homework 7: Design Document
+# Customer Database: Design Document
 
 author: Lorenzo Uk
 date: December 2024
 
 ## Introduction
 
-In this homework assignment, I will create a simple database that tracks customer information. The database can read a file from the disk that adds and deletes customers. We can track an email address(string), a name (string), shoe size (integer), and favorite food (string). The way I will separate the code is by creating 3 directories, businessdb which is the main file where I would include I/O, the library file, and its header file to store the functions, test cases to check if the program works, and a Makefile to compile all the code.
+In this project, I will create a simple database that tracks customer information. The database can read a file from the disk that adds and deletes customers. We can track an email address(string), a name (string), shoe size (integer), and favorite food (string). The way I will separate the code is by creating 3 directories, businessdb which is the main file where I would include I/O, the library file, and its header file to store the functions, test cases to check if the program works, and a Makefile to compile all the code.
 
 ## Buisnessdb(Main)
 
