@@ -10,7 +10,7 @@ int main(void) {
 
     FILE *infile = fopen("customers.tsv", "r");
     char line[256];
-    while (fgets(line, sizeof(line), infile)) {
+    while (infile && fgets(line, sizeof(line), infile)) {
     	line[strcspn(line, "\n")] = '\0';
 
         char *email = strtok(line, "\t");
